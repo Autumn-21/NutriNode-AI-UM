@@ -1,0 +1,71 @@
+{
+  "mode": "profile_only",
+  "feature_cols": [
+    "Age",
+    "Gender",
+    "Height_cm",
+    "Weight_kg",
+    "BMI",
+    "Chronic_Disease",
+    "Blood_Pressure_Systolic",
+    "Blood_Pressure_Diastolic",
+    "Cholesterol_Level",
+    "Blood_Sugar_Level",
+    "Allergies",
+    "Daily_Steps",
+    "Exercise_Frequency",
+    "Sleep_Hours",
+    "Alcohol_Consumption",
+    "Smoking_Habit",
+    "Dietary_Habits"
+  ],
+  "target_cols": [
+    "TARGET_CALORIES_PROFILE_ONLY_KCAL",
+    "TARGET_PROTEIN_PROFILE_ONLY_G",
+    "TARGET_CARBS_PROFILE_ONLY_G",
+    "TARGET_FATS_PROFILE_ONLY_G"
+  ],
+  "categorical_cols": [
+    "Gender",
+    "Chronic_Disease",
+    "Allergies",
+    "Exercise_Frequency",
+    "Alcohol_Consumption",
+    "Smoking_Habit",
+    "Dietary_Habits"
+  ],
+  "numerical_cols": [
+    "Age",
+    "Height_cm",
+    "Weight_kg",
+    "BMI",
+    "Blood_Pressure_Systolic",
+    "Blood_Pressure_Diastolic",
+    "Cholesterol_Level",
+    "Blood_Sugar_Level",
+    "Daily_Steps",
+    "Sleep_Hours"
+  ],
+  "numeric_fill_values": {
+    "Age": 49.0,
+    "Height_cm": 174.0,
+    "Weight_kg": 84.0,
+    "BMI": 27.46,
+    "Blood_Pressure_Systolic": 133.0,
+    "Blood_Pressure_Diastolic": 90.0,
+    "Cholesterol_Level": 224.0,
+    "Blood_Sugar_Level": 159.0,
+    "Daily_Steps": 8528.0,
+    "Sleep_Hours": 7.0
+  },
+  "categorical_fill_values": {
+    "Gender": "Unknown",
+    "Chronic_Disease": "None",
+    "Allergies": "None",
+    "Exercise_Frequency": "Unknown",
+    "Alcohol_Consumption": "Unknown",
+    "Smoking_Habit": "Unknown",
+    "Dietary_Habits": "Unknown"
+  },
+  "feature_set": "raw"
+}

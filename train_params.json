@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "iterations": 5000,
+  "learning_rate": 0.03,
+  "depth": 4,
+  "l2_leaf_reg": 8.0,
+  "od_wait": 200,
+  "use_best_model": true,
+  "mode": "profile_only",
+  "target_set": "profile_derived",
+  "feature_set": "raw",
+  "target_cols": [
+    "TARGET_CALORIES_PROFILE_ONLY_KCAL",
+    "TARGET_PROTEIN_PROFILE_ONLY_G",
+    "TARGET_CARBS_PROFILE_ONLY_G",
+    "TARGET_FATS_PROFILE_ONLY_G"
+  ]
+}
